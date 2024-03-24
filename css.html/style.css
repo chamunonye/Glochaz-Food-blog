@@ -136,7 +136,7 @@ body{
     width: 200px;
     font-size: 25px;
     padding: 15px;
-    background-color: #f86f14;
+    background-color: #e01c0e;
     color: #fff;
     border-radius: 20px;
     border: none;
@@ -148,7 +148,7 @@ body{
     font-size: 15px;
     font-weight: bold;
     padding: 15px;
-    background-color: #f86f14;
+    background-color: #e01c0e;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -164,14 +164,14 @@ body{
     cursor: pointer;
 }
 .navlink:hover{
-    color: #f86f14;
+    color: #e01c0e;
 }
 .signup-button{
     width: 360px;
     font-size: 15px;
     font-weight: bold;
     padding: 15px;
-    background-color: #f86f14;
+    background-color: #e01c0e;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -220,7 +220,7 @@ body{
 }
 
 .options>div:hover{
-    color: #f86f14;
+    color: #e01c0e;
 }
 @media screen and (max-width:1035px) {
     .blog-body1 {
