@@ -29,7 +29,7 @@ session_start();
         <div><img src="assets/Logo.png" alt="" class='logo'></div>
         <div class="options">
             <a class="navlink" style="color: #e01c0e;" href="hom.php">Recipes</a>
-            <a class="navlink">Blog</a>
+            <a class="navlink" href="blog.php">Blog</a>
             <a class="navlink">Contact</a>
             <a class="navlink" href=""><?php if(isset($_SESSION['loggedin'])&&$_SESSION['loggedin']=='true'){
                 echo 'welcome '.$_SESSION['username'];
@@ -62,8 +62,9 @@ session_start();
         </div>
     </nav>
 <header>
-    <h1>Welcome to my website !!!</h1>
-    <h2>This website is all about me</h2>
+    <h1>Welcome to Glochaz Food Blog  !!!</h1>
+    <h2>Our Mission Statement is to provide the right Recipe for Healthy Living</h2>
+    <h3> Vision is Think Recipe Think Glochaz</h3>
 </header>
   
 </main>

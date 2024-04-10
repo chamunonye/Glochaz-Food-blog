@@ -234,3 +234,71 @@ body{
     }
 
   }
+
+  /* style.css */
+
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-nav {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.navlink {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navlink:hover {
+    color: #e01c0e;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+header h3 {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 50px;
+}
